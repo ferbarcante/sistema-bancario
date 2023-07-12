@@ -7,7 +7,7 @@ public class Account {
 
 
 
-    public Account(int accNumber, String name) {
+    public Account(int accNumber, String holder) {
         this.accNumber = accNumber;
         this.holder = holder;
     }
@@ -42,6 +42,6 @@ public class Account {
     }
 
     public String toString(){
-        return  "Account " + accNumber + ", Holder: " + name + ", Balance: " + balance;
+        return  "Account " + accNumber + ", Holder: " + holder + ", Balance: $ " + balance;
     }
 }
